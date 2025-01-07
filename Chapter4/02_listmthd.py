@@ -1,0 +1,21 @@
+# friends=['joseph','glenn','sally','47',"23.4",'False']
+# print(friends[1:4])
+# print(friends[1:4:2])
+# # print(friends.insert(3,4))
+# friends.insert(3,4)
+# print(friends)
+
+fr=[32,53,63,6,7,2,8,9]
+print("original sort",fr)
+fr.insert(3,4)
+print("inserted element ",fr)
+fr.reverse()
+print("reverse list",fr)
+fr.sort()
+print("sorted list ",fr)
+fr.pop(2)
+print("popped 2nd index element",fr)
+print(fr.pop(2))
+fr.remove(9)
+print("removed 9 element",fr)
+print("element at 2nd index",fr[2])
